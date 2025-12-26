@@ -76,8 +76,8 @@ sudo make install
 
 ```cmd
 # Clone the repository
-git clone https://github.com/Luka12-dev/vibefetch.git
-cd vibefetch
+git clone https://github.com/Luka12-dev/Vibefetch.git
+cd Vibefetch
 
 # Build with MinGW
 g++ -std=c++11 -O2 VibeFetch.cpp -o VibeFetch.exe
