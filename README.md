@@ -83,7 +83,7 @@ cd Vibefetch
 g++ -std=c++11 -O2 VibeFetch.cpp -o VibeFetch.exe
 
 # Run
-VibeFetch.exe
+./VibeFetch.exe
 ```
 
 ## 📖 Usage
