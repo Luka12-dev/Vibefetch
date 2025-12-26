@@ -376,6 +376,6 @@ If you find VibeFetch useful, please consider giving it a star! ⭐
 
 *Keep the VIBE alive!* ✨
 
-[Report Bug](https://github.com/Luka12-dev/Vibefetch/issues) · [Request Feature](https://github.com/Luka12-dev/vibefetch/issues) · [Architecture](https://github.com/Luka12-dev/Vibefetch/Architecture.md)
+[Report Bug](https://github.com/Luka12-dev/Vibefetch/issues) · [Request Feature](https://github.com/Luka12-dev/vibefetch/issues) · [Architecture](https://github.com/Luka12-dev/Vibefetch/blob/main/Architecture.md)
 
 </div>
