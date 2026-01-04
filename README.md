@@ -5,7 +5,6 @@
 ![Ubuntu](Ubuntu.png)
 ![Arch](arch.png)
 ![Windows 11](Windows11.png)
-![MacOS](MacOS.png)
 
 **A vibrant system information tool with personality!**
 
@@ -320,7 +319,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2025 Luka
+Copyright (c) 2026 Luka
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -351,7 +350,7 @@ VibeFetch is inspired by and pays homage to:
 
 ## 📞 Support
 
-- 📖 Architecture: [Architecture](https://github.com/Luka12-dev/Vibefetch/Architecture.md)
+- 📖 Architecture: [Architecture](https://github.com/Luka12-dev/Vibefetch/blob/main/Architecture.md)
 
 ## 🗺️ Roadmap
 
@@ -376,6 +375,6 @@ If you find VibeFetch useful, please consider giving it a star! ⭐
 
 *Keep the VIBE alive!* ✨
 
-[Report Bug](https://github.com/Luka12-dev/Vibefetch/issues) · [Request Feature](https://github.com/Luka12-dev/vibefetch/issues) · [Architecture](https://github.com/Luka12-dev/Vibefetch/blob/main/Architecture.md)
+[Report Bug](https://github.com/Luka12-dev/Vibefetch/issues) · [Request Feature](https://github.com/Luka12-dev/Vibefetch/pulls) · [Architecture](https://github.com/Luka12-dev/Vibefetch/blob/main/Architecture.md)
 
 </div>

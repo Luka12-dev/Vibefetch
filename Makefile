@@ -3,7 +3,7 @@
 
 # Compiler settings
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Wextra -O2 -Wno-unused-parameter
+CXXFLAGS = -std=c++11 -Wall -Wextra -O2 -Wno-unused-parameter -Wno-unused-variable -Wno-missing-field-initializers -Wno-multichar
 DEBUGFLAGS = -g -DDEBUG
 
 # Target executable
@@ -47,17 +47,17 @@ all: $(TARGET)
 # Compile the executable
 $(TARGET): $(OBJECTS)
 	@echo "Linking $(TARGET)..."
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJECTS) $(LDFLAGS)
+	@$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJECTS) $(LDFLAGS)
 
 # Compile object files
 %.o: %.cpp
 	@echo "Compiling $<..."
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+	@$(CXX) $(CXXFLAGS) -c $< -o $@ 2>/dev/null || $(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Run the program
 run: $(TARGET)
 	@echo "Running VibeFetch..."
-	@./$(TARGET)
+	@./$(TARGET) 2>&1 | grep -v "lspci: not found"
 
 # Run with debug mode for specific distro
 # Usage: make run-debug distro=Ubuntu
@@ -143,7 +143,7 @@ help:
 version:
 	@echo "VibeFetch v2.0.0"
 	@echo "System Information Tool with Configuration Support"
-	@echo "Copyright (c) 2024-2025"
+	@echo "Copyright (c) 2026"
 
 # Compile with debug symbols
 debug: CXXFLAGS += $(DEBUGFLAGS)

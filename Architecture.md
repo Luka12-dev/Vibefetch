@@ -4,7 +4,7 @@
 
 **Comprehensive System Design Documentation**
 
-Version 1.0.0 | Last Updated: 2025-12-26
+Version 2.0.0 | Last Updated: 2026-01-04
 
 </div>
 
@@ -270,7 +270,7 @@ struct CPUInfo {
 │  └───────────────────────────────┘  │
 │                                     │
 │         Dispatcher Function         │
-│      getASCIIArt(os_name)          │
+│      getASCIIArt(os_name)           │
 └─────────────────────────────────────┘
 ```
 
@@ -1248,7 +1248,7 @@ make
 strip VibeFetch
 
 # Create tarball
-tar -czf vibefetch-v1.0.0-linux-x64.tar.gz VibeFetch README.md LICENSE
+tar -czf vibefetch-v2.0.0-linux-x64.tar.gz VibeFetch README.md LICENSE
 ```
 
 ### Package Managers
@@ -1258,11 +1258,10 @@ tar -czf vibefetch-v1.0.0-linux-x64.tar.gz VibeFetch README.md LICENSE
 **debian/control**:
 ```
 Package: vibefetch
-Version: 1.0.0
+Version: 2.0.0
 Section: utils
 Priority: optional
 Architecture: amd64
-Maintainer: Your Name <email@example.com>
 Description: System information tool with ASCII art
  VibeFetch displays system information with beautiful
  ASCII art logos for various operating systems.
@@ -1272,7 +1271,7 @@ Description: System information tool with ASCII art
 
 ```bash
 pkgname=vibefetch
-pkgver=1.0.0
+pkgver=2.0.0
 pkgrel=1
 pkgdesc="System information tool with ASCII art"
 arch=('x86_64')
@@ -1297,7 +1296,7 @@ package() {
 class Vibefetch < Formula
   desc "System information tool with ASCII art"
   homepage "https://github.com/Luka12-dev/Vibefetch"
-  url "https://github.com/Luka12-dev/Vibefetch/archive/v1.0.0.tar.gz"
+  url "https://github.com/Luka12-dev/Vibefetch/archive/v2.0.0.tar.gz"
   sha256 "..."
   
   def install
@@ -1743,10 +1742,10 @@ VibeFetch aims to become the go-to system information tool with:
 
 *Keep the VIBE alive!* ✨
 
-[GitHub](https://github.com/Luka12-dev/Vibefetch) | [Documentation](https://vibefetch.dev) | [Community](https://discord.gg/Vibefetch)
+[GitHub](https://github.com/Luka12-dev/Vibefetch)
 
 **Made with ❤️ and C++**
 
-Version 1.0.0 | Last Updated: 2025-12-26
+Version 2.0.0 | Last Updated: 2026-01-04
 
 </div>
